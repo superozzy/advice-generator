@@ -1,0 +1,120 @@
+@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@800&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Manrope', sans-serif;
+    font-weight: 800;
+    background-color: hsl(218, 23%, 16%);
+}
+q{
+    font-size:1rem;
+    color: #fff;
+}
+h1{
+    color: hsl(150, 100%, 66%);
+    font-size:0.7rem;
+    letter-spacing: 0.2rem;
+    margin-bottom: 2rem;
+    text-transform: uppercase;
+    
+}
+img{
+    width: 100%;
+}
+.container{
+    height: 90vh;
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    justify-items: center;
+    margin: 0 auto;
+    position: relative;
+}
+#advice{
+    margin-bottom: 2.3rem;
+    line-height:1.6rem;
+    position: relative;
+    bottom: 0.7rem;
+    
+}
+.main{
+   background-color:  hsl(217, 19%, 24%);
+   width: 90%;
+  /* margin: 0.5rem; */
+  margin: 0 auto;
+   flex-direction: column;
+   justify-content: center;
+   align-items: center;
+   
+   padding: 1rem;
+   text-align: center;
+   border-radius: 8px;
+  
+   
+  
+   
+   
+   
+}
+.wrapper{
+   
+    text-align: center;
+   margin-top: 0.5rem;
+   
+   padding-bottom: 1.5rem;
+}
+.diceRandom{
+  
+    border-radius: 50%;
+    padding: 1.2rem;
+    border: 3px solid hsl(218, 23%, 16%);
+    background-color:   hsl(150, 100%, 66%);
+    /* margin-top: 2.7rem; */
+    position:absolute ;
+    text-align: center;
+    left: 50%;
+    transform: translateX(-49%);
+    cursor: pointer;
+    transition: box-shadow ease 0.3s;
+}
+.diceRandom:active{
+    box-shadow: 0 0 2rem  hsl(150, 100%, 66%);
+    transition: box-shadow ease 0.05s;
+    
+}
+
+.divider{
+    /* margin-top: 1rem; */
+    margin-bottom: 1.5rem;
+}
+.dividerRandom{
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin: 4rem;
+}
+.advice-text{
+    padding: 1rem;
+    margin-bottom: 0.5rem;
+}
+/* animation */
+/*  */
+
+@media screen and  (min-width:768px){
+ .main{
+     width: 50%;
+ }
+ .divider img{
+     width: 50%;
+ }
+
+ .wrapper{
+     margin-top:2rem;
+ }
+}
