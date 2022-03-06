@@ -62,7 +62,7 @@ https://developer.mozilla.org/en-US/docs/Learn/JavaScript/Client-side_web_APIs/I
 
 ## Author
 
-- Website - [Desp](https://www.your-site.com)
-- Frontend Mentor - [superOzzy](https://www.frontendmentor.io/profile/yourusername)
+- Website - [Desp](https://github.com/superozzy/advice-generator)
+- Frontend Mentor - [superOzzy](https://www.frontendmentor.io/profile/superozzy)
 
 
